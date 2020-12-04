@@ -1,0 +1,6 @@
+
+   in rules
+
+ subgoal ; goal            for backward chaining
+ conditions ; conclusion   for forward chaining
+

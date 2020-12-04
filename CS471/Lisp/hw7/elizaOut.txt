@@ -1,0 +1,60 @@
+Script started on Sun 22 Nov 2020 03:15:45 PM PST
+]0;higbe005@empress:~/CS/Lisp/hw7[?1034h[higbe005@empress hw7]$ clisp
+  i i i i i i i       ooooo    o        ooooooo   ooooo   ooooo
+  I I I I I I I      8     8   8           8     8     o  8    8
+  I  \ `+' /  I      8         8           8     8        8    8
+   \  `-+-'  /       8         8           8      ooooo   8oooo
+    `-__|__-'        8         8           8           8  8
+        |            8     o   8           8     o     8  8
+  ------+------       ooooo    8oooooo  ooo8ooo   ooooo   8
+
+Welcome to GNU CLISP 2.49 (2010-07-07) <http://clisp.cons.org/>
+
+Copyright (c) Bruno Haible, Michael Stoll 1992, 1993
+Copyright (c) Bruno Haible, Marcus Daniels 1994-1997
+Copyright (c) Bruno Haible, Pierpaolo Bernardi, Sam Steingold 1998
+Copyright (c) Bruno Haible, Sam Steingold 1999-2000
+Copyright (c) Sam Steingold, Bruno Haible 2001-2010
+
+Type :h and hit Enter for context help.
+
+[1]> [?1034h[C[load "exlias"[1P"[1P"[1P"[1P"[1Plizap"[1P.lsp
+;; Loading file eliza.lsp ...
+Hi. My name is eliza. What is yours? todd
+Looking at my records you are 100 and SINGLE
+And you have 100 children.
+So tell me what is bothering you today: (ENCLOSE YOUR ANSWER IN PARENTHESES)
+()[C[I have[1[1[1[1[1Pfeel sad.
+(WHY DO YOU THINK YOU THINK THAT IS?)
+()[C[I broke my last output file [1Pby adding a comma.
+(TELL ME MORE ABOUT IT)
+()[C[I need to restart because teh [1[1[1[1Phe last run stop[1Pped.
+(TELL ME MORE ABOUT IT)
+()[C[So now I need to run this again and put in ten responses.
+(TELL ME MORE ABOUT IT)
+()[C[I have been wokring [1[1[1[1[1[1[1Prkong[1[1[1[1Ping on this for a half hour[1[1[1[1[1[1[1[1[1[1[1[1Pa while now.
+(HOW LONG HAVE YOU BEEN WORKING ON THIS FOR A WHILE NOW.)
+()[C[It has been a half hour.
+(TELL ME MORE ABOUT IT)
+()[C[Is our time almost up?
+(TELL ME MORE ABOUT IT)
+()[C[When does this stop?
+(TELL ME MORE ABOUT IT)
+()[C[tes[1[1[1[1PGeneric response.
+(TELL ME MORE ABOUT IT)
+()[C[Generic response 2.
+(OOPS OUR TIME IS UP. SEE YOU NEXT WEEK)
+;; Loaded file eliza.lsp
+T
+[2]> 
+[1]+  Stopped                 clisp
+]0;higbe005@empress:~/CS/Lisp/hw7[higbe005@empress hw7]$ exit
+exit
+There are stopped jobs.
+]0;higbe005@empress:~/CS/Lisp/hw7[higbe005@empress hw7]$ exit
+exit
+
+Exiting on signal 15
+Bye.
+
+Script done on Sun 22 Nov 2020 03:18:09 PM PST

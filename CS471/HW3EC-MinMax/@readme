@@ -1,0 +1,17 @@
+
+  Run my minmax.out first for a binary version.
+  Make this tri-nary.
+  Each level has 3^L nodes.
+  Your Ops are not just L and R.
+  Display in a nice format as I did.
+
+  For realMM.out (Special EC)
+   you need a complete binary tree class
+   that creates a balanced (triangular) tree.
+   And allows the user to assign scores to leaves.
+   And then perform MinMax in a DFS matter.
+   
+   My readlMM.cpp is given as a sample.
+
+
+

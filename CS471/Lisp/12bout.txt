@@ -1,0 +1,91 @@
+Script started on Thu 19 Nov 2020 08:06:03 PM PST
+]0;higbe005@empress:~/CS/Lisp[?1034h[higbe005@empress Lisp]$ clisp
+  i i i i i i i       ooooo    o        ooooooo   ooooo   ooooo
+  I I I I I I I      8     8   8           8     8     o  8    8
+  I  \ `+' /  I      8         8           8     8        8    8
+   \  `-+-'  /       8         8           8      ooooo   8oooo
+    `-__|__-'        8         8           8           8  8
+        |            8     o   8           8     o     8  8
+  ------+------       ooooo    8oooooo  ooo8ooo   ooooo   8
+
+Welcome to GNU CLISP 2.49 (2010-07-07) <http://clisp.cons.org/>
+
+Copyright (c) Bruno Haible, Michael Stoll 1992, 1993
+Copyright (c) Bruno Haible, Marcus Daniels 1994-1997
+Copyright (c) Bruno Haible, Pierpaolo Bernardi, Sam Steingold 1998
+Copyright (c) Bruno Haible, Sam Steingold 1999-2000
+Copyright (c) Sam Steingold, Bruno Haible 2001-2010
+
+Type :h and hit Enter for context help.
+
+[1]> [?1034h(load "12B.lisp")[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+;; Loading file 12B.lisp ...
+Ask for a property of Spot. Properties are 'age', 'color', and 'species'. Enter 'done' to quit.
+age
+7
+Ask for a property of Spot. Properties are 'age', 'color', and 'species'. Enter 'done' to quit.
+color
+TAN
+Ask for a property of Spot. Properties are 'age', 'color', and 'species'. Enter 'done' to quit.
+species
+DOG
+Ask for a property of Spot. Properties are 'age', 'color', and 'species'. Enter 'done' to quit.
+done
+;; Loaded file 12B.lisp
+T
+[2]> 
+[1]+  Stopped                 clisp
+]0;higbe005@empress:~/CS/Lisp[higbe005@empress Lisp]$ exit
+exit
+There are stopped jobs.
+]0;higbe005@empress:~/CS/Lisp[higbe005@empress Lisp]$ clear
+[3;J[H[2J]0;higbe005@empress:~/CS/Lisp[higbe005@empress Lisp]$ clisp
+  i i i i i i i       ooooo    o        ooooooo   ooooo   ooooo
+  I I I I I I I      8     8   8           8     8     o  8    8
+  I  \ `+' /  I      8         8           8     8        8    8
+   \  `-+-'  /       8         8           8      ooooo   8oooo
+    `-__|__-'        8         8           8           8  8
+        |            8     o   8           8     o     8  8
+  ------+------       ooooo    8oooooo  ooo8ooo   ooooo   8
+
+Welcome to GNU CLISP 2.49 (2010-07-07) <http://clisp.cons.org/>
+
+Copyright (c) Bruno Haible, Michael Stoll 1992, 1993
+Copyright (c) Bruno Haible, Marcus Daniels 1994-1997
+Copyright (c) Bruno Haible, Pierpaolo Bernardi, Sam Steingold 1998
+Copyright (c) Bruno Haible, Sam Steingold 1999-2000
+Copyright (c) Sam Steingold, Bruno Haible 2001-2010
+
+Type :h and hit Enter for context help.
+
+[1]> [?1034hexit
+
+*** - SYSTEM::READ-EVAL-PRINT: variable EXIT has no value
+The following restarts are available:
+USE-VALUE      :R1      Input a value to be used instead of EXIT.
+STORE-VALUE    :R2      Input a new value for EXIT.
+ABORT          :R3      Abort main loop
+Break 1 [2]> abort
+[3]> quit
+
+*** - SYSTEM::READ-EVAL-PRINT: variable QUIT has no value
+The following restarts are available:
+USE-VALUE      :R1      Input a value to be used instead of QUIT.
+STORE-VALUE    :R2      Input a new value for QUIT.
+ABORT          :R3      Abort main loop
+Break 1 [4]> (exi[C[C[C[C[C[C
+Bye.
+]0;higbe005@empress:~/CS/Lisp[higbe005@empress Lisp]$ clear
+[3;J[H[2J]0;higbe005@empress:~/CS/Lisp[higbe005@empress Lisp]$ cleaisea[1Pexclisgprolo[2Pcleagprolo[2Pcleagprolo[2Pcleagprolo[2Pclis[1Pexcleaisea[K[K/cs/recordhw 12bout.txt
+You are already recording!  Into file 12bout.txt.
+  (no new recording has been started.)
+]0;higbe005@empress:~/CS/Lisp[higbe005@empress Lisp]$ exit
+exit
+There are stopped jobs.
+]0;higbe005@empress:~/CS/Lisp[higbe005@empress Lisp]$ exit
+exit
+
+Exiting on signal 15
+Bye.
+
+Script done on Thu 19 Nov 2020 08:08:43 PM PST

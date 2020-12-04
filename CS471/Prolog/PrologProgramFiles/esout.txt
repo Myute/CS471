@@ -1,0 +1,52 @@
+Script started on Sun 01 Nov 2020 07:50:49 PM PST
+]0;higbe005@empress:~/Prolog/PrologProgramFiles[?1034h[higbe005@empress PrologProgramFiles]$ ls
+backtrack.pl  ESexample.pl  [0m[38;5;27mextra[0m       family.pl     hw5_2.pl  hw5.pl    sample.pl
+class.pl      ,esout.txt    family2.pl  geography.pl  hw5out    likes.pl
+]0;higbe005@empress:~/Prolog/PrologProgramFiles[higbe005@empress PrologProgramFiles]$ gprolog
+GNU Prolog 1.4.4 (64 bits)
+Compiled Jan 15 2014, 20:38:19 with gcc
+By Daniel Diaz
+Copyright (C) 1999-2013 Daniel Diaz
+| ?- consult('ESexample'('ESexample').
+compiling /home/students/higbe005/Prolog/PrologProgramFiles/ESexample.pl for byte code...
+/home/students/higbe005/Prolog/PrologProgramFiles/ESexample.pl:21-22: warning: singleton variables [Skin] for choose/5
+/home/students/higbe005/Prolog/PrologProgramFiles/ESexample.pl:29-30: warning: singleton variables [Skin] for choose/5
+/home/students/higbe005/Prolog/PrologProgramFiles/ESexample.pl:34-35: warning: singleton variables [Skin] for choose/5
+/home/students/higbe005/Prolog/PrologProgramFiles/ESexample.pl:37-38: warning: singleton variables [Hair,Skin] for choose/5
+/home/students/higbe005/Prolog/PrologProgramFiles/ESexample.pl:41: warning: singleton variables [Hair,Skin,W,H] for choose/5
+/home/students/higbe005/Prolog/PrologProgramFiles/ESexample.pl:48: warning: singleton variables [Skin] for redish/2
+/home/students/higbe005/Prolog/PrologProgramFiles/ESexample.pl:50: warning: singleton variables [Hair] for redish/2
+/home/students/higbe005/Prolog/PrologProgramFiles/ESexample.pl compiled, 57 lines read - 3702 bytes written, 79 ms
+
+(2 ms) yes
+| ?- top.
+Hair color?black.
+Skin Tone?fair.
+Weight? kg40.
+Height? cm139.
+You should wear sweatpants and a sweatshirt
+
+true ? ;
+You should wear a T-shirt and jeans
+
+(1 ms) yes
+| ?- top.
+Hair color?blonde.
+Skin Tone?dark.
+Weight? kg35.
+Height? cm140.
+You should wear a pastel dress
+
+true ? ;
+You should wear shorts and a shirt.
+
+true ? ;
+You should wear a T-shirt and jeans
+
+yes
+| ?- 
+Prolog interruption (h for help) ? e
+]0;higbe005@empress:~/Prolog/PrologProgramFiles[higbe005@empress PrologProgramFiles]$ exit
+exit
+
+Script done on Sun 01 Nov 2020 07:52:29 PM PST

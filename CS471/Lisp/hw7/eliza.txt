@@ -1,0 +1,58 @@
+Script started on Sun 22 Nov 2020 03:12:58 PM PST
+]0;higbe005@empress:~/CS/Lisp/hw7[?1034h[higbe005@empress hw7]$ clisp
+  i i i i i i i       ooooo    o        ooooooo   ooooo   ooooo
+  I I I I I I I      8     8   8           8     8     o  8    8
+  I  \ `+' /  I      8         8           8     8        8    8
+   \  `-+-'  /       8         8           8      ooooo   8oooo
+    `-__|__-'        8         8           8           8  8
+        |            8     o   8           8     o     8  8
+  ------+------       ooooo    8oooooo  ooo8ooo   ooooo   8
+
+Welcome to GNU CLISP 2.49 (2010-07-07) <http://clisp.cons.org/>
+
+Copyright (c) Bruno Haible, Michael Stoll 1992, 1993
+Copyright (c) Bruno Haible, Marcus Daniels 1994-1997
+Copyright (c) Bruno Haible, Pierpaolo Bernardi, Sam Steingold 1998
+Copyright (c) Bruno Haible, Sam Steingold 1999-2000
+Copyright (c) Sam Steingold, Bruno Haible 2001-2010
+
+Type :h and hit Enter for context help.
+
+[1]> [?1034h[C[load "elize"[1Pa.lsp
+;; Loading file eliza.lsp ...
+Hi. My name is eliza. What is yours? todd
+Looking at my records you are 100 and SINGLE
+And you have 100 children.
+So tell me what is bothering you today: (ENCLOSE YOUR ANSWER IN PARENTHESES)
+()[C[I feel sad.
+(WHY DO YOU THINK YOU THINK THAT IS?)
+()[C[I do not knoi[1[1Pw.
+(TELL ME MORE ABOUT IT)
+()[C[I need to fill the rest of the time[1P.
+(TELL ME MORE ABOUT IT)
+()[C[I have been working on this for a half hour.
+(HOW LONG HAVE YOU BEEN WORKING ON THIS FOR A HALF HOUR.)
+()[C[What do you mean?
+(THAT IS A DIFFICULT QUESTION)
+()[C[Are you a re[1[1Peal psychoanalis[1[1[1[1[1[1[1[1[1[1[1[1[1Pdoctor?
+(TELL ME MORE ABOUT IT)
+()[C[No you te[1[1[1[1[1[1[1[1P[1P, [1Pyou need to tell m[1Pe more about it.
+
+*** - READ: comma is illegal outside of backquote
+The following restarts are available:
+SKIP           :R1      skip (MAIN)
+RETRY          :R2      retry (MAIN)
+STOP           :R3      stop loading file /home/students/higbe005/CS/Lisp/hw7/eliza.lsp
+ABORT          :R4      Abort main loop
+Break 1 [2]> 
+[1]+  Stopped                 clisp
+]0;higbe005@empress:~/CS/Lisp/hw7[higbe005@empress hw7]$ exit
+exit
+There are stopped jobs.
+]0;higbe005@empress:~/CS/Lisp/hw7[higbe005@empress hw7]$ exit
+exit
+
+Exiting on signal 15
+Bye.
+
+Script done on Sun 22 Nov 2020 03:15:27 PM PST

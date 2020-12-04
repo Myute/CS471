@@ -1,0 +1,87 @@
+Script started on Sun 29 Nov 2020 06:23:36 PM PST
+[higbe005@empress HW8]$ g++ -std=c++11 probabnlp.cpp
+[higbe005@empress HW8]$ ./a.out
+Enter a file name:
+nlpProb.txt
+The probabilities of each letter sequence are:
+P(A | null) = 0.5
+P(B | null) = 0.2
+P(C | null) = 0.3
+P(A | A) = 0.2
+P(A | B) = 0.3
+P(A | C) = 0.5
+P(B | A) = 0.2
+P(B | B) = 0.7
+P(B | C) = 0.1
+P(C | A) = 0.8
+P(C | B) = 0.1
+P(C | C) = 0.1
+P(A | AA) = 0.3
+P(A | AB) = 0.2
+P(A | AC) = 0.7
+P(A | BA) = 0.5
+P(A | BB) = 0.3
+P(A | BC) = 0.2
+P(A | CA) = 0.1
+P(A | CB) = 0.4
+P(A | CC) = 0.4
+P(B | AA) = 0.3
+P(B | AB) = 0.5
+P(B | AC) = 0.1
+P(B | BA) = 0.1
+P(B | BB) = 0.8
+P(B | BC) = 0.6
+P(B | CA) = 0.3
+P(B | CB) = 0.4
+P(B | CC) = 0.3
+P(C | AA) = 0.4
+P(C | AB) = 0.3
+P(C | AC) = 0.2
+P(C | BA) = 0.4
+P(C | BB) = 0.1
+P(C | BC) = 0.2
+P(C | CA) = 0.6
+P(C | CB) = 0.2
+P(C | CC) = 0.3
+-- end --
+Enter a phrase to find the probability of or quit to quit: 
+ABBCA
+P(ABBCA) = 0.5(A | null) * 0.2(B | A) * 0.5(B | AB) * 0.1(C | BB) * 0.2(A | BC) 
+The probability of the phrase "ABBCA" is: 0.001
+
+Enter a phrase to find the probability of or quit to quit: 
+BAAC
+P(BAAC) = 0.2(B | null) * 0.3(A | B) * 0.5(A | BA) * 0.4(C | AA) 
+The probability of the phrase "BAAC" is: 0.012
+
+Enter a phrase to find the probability of or quit to quit: 
+CAB
+P(CAB) = 0.3(C | null) * 0.5(A | C) * 0.3(B | CA) 
+The probability of the phrase "CAB" is: 0.045
+
+Enter a phrase to find the probability of or quit to quit: 
+A
+P(A) = 0.5(A | null) 
+The probability of the phrase "A" is: 0.5
+
+Enter a phrase to find the probability of or quit to quit: 
+B
+P(B) = 0.2(B | null) 
+The probability of the phrase "B" is: 0.2
+
+Enter a phrase to find the probability of or quit to quit: 
+C
+P(C) = 0.3(C | null) 
+The probability of the phrase "C" is: 0.3
+
+Enter a phrase to find the probability of or quit to quit: 
+ACBCBCCCCCAACCBCCA
+P(ACBCBCCCCCAACCBCCA) = 0.5(A | null) * 0.8(C | A) * 0.1(B | AC) * 0.2(C | CB) * 0.6(B | BC) * 0.2(C | CB) * 0.2(C | BC) * 0.3(C | CC) * 0.3(C | CC) * 0.3(C | CC) * 0.4(A | CC) * 0.1(A | CA) * 0.4(C | AA) * 0.2(C | AC) * 0.3(B | CC) * 0.2(C | CB) * 0.2(C | BC) * 0.4(A | CC) 
+The probability of the phrase "ACBCBCCCCCAACCBCCA" is: 7.96262e-11
+
+Enter a phrase to find the probability of or quit to quit: 
+quit
+[higbe005@empress HW8]$ exit
+exit
+
+Script done on Sun 29 Nov 2020 06:25:20 PM PST

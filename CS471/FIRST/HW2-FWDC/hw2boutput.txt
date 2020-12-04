@@ -1,0 +1,68 @@
+Script started on Sun 04 Oct 2020 10:10:25 PM PDT
+]0;higbe005@empress:~/FIRST/HW2-FWDC[?1034h[higbe005@empress HW2-FWDC]$ g++ fwdc.c-fwdc.csfwdc.ctfwdc.cdfwdc.c fwdc.cp[1Pfwdc.c=fwdc.ccfwdc.c+fwdc.c+fwdc.c1fwdc.c1fwdc.c fwdc.c
+]0;higbe005@empress:~/FIRST/HW2-FWDC[higbe005@empress HW2-FWDC]$ ./a.out
+>>>Expand:RRRR
+Trying to add: LRRR unsafe!
+Trying to add: LLRR unsafe!
+Trying to add: LRLR safe!
+Trying to add: LRRL unsafe!
+Frontier is:
+LRLR g = 1 h = 2 f = 3
+Best is:LRLR
+a
+>>>Expand:LRLR
+Trying to add: RRLR safe!
+Trying to add: RRRRFrontier is:
+RRLR g = 2 h = 2 f = 4
+Best is:RRLR
+a
+>>>Expand:RRLR
+Trying to add: LRLRTrying to add: LLLR safe!
+Trying to add: LRLL safe!
+Frontier is:
+LLLR g = 3 h = 1 f = 4
+LRLL g = 3 h = 1 f = 4
+Best is:LLLR
+a
+>>>Expand:LLLR
+Trying to add: RLLR unsafe!
+Trying to add: RRLRTrying to add: RLRR safe!
+Frontier is:
+RLRR g = 4 h = 2 f = 6
+Best is:RLRR
+a
+>>>Expand:RLRR
+Trying to add: LLRR unsafe!
+Trying to add: LLLRTrying to add: LLRL safe!
+Frontier is:
+LLRL g = 5 h = 1 f = 6
+Best is:LLRL
+a
+>>>Expand:LLRL
+Trying to add: RLRL safe!
+Trying to add: RRRL safe!
+Trying to add: RLRRFrontier is:
+RLRL g = 6 h = 1 f = 7
+RRRL g = 6 h = 2 f = 8
+Best is:RLRL
+a
+>>>Expand:RLRL
+Trying to add: LLRLTrying to add: LLLL>>Reached: LLLL
+came from
+RLRL
+came from
+LLRL
+came from
+RLRR
+came from
+LLLR
+came from
+RRLR
+came from
+LRLR
+came from
+RRRR
+]0;higbe005@empress:~/FIRST/HW2-FWDC[higbe005@empress HW2-FWDC]$ exit
+exit
+
+Script done on Sun 04 Oct 2020 10:10:59 PM PDT
